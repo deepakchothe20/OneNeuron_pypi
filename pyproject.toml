@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OneNeuron_pypi_Deepak_20"
+version = "0.0.1"
+authors = [
+  { name="Deepak", email="deepakchothe1998@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+
+]
+
+install-requires =['numpy','logging','pandas']
+
+[project.urls]
+Homepage = "https://github.com/deepakchothe20/OneNeuron_pypi"
+Issues = "https://github.com/deepakchothe20/OneNeuron_pypi/issues"
+
